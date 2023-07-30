@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlanetBase : MonoBehaviour
 {
+    public Planets currentPlanetType;
+
     public Texture texture;
 
     public float massOfPlanet;

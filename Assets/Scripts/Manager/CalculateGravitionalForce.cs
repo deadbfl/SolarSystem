@@ -8,9 +8,9 @@ public class CalculateGravitionalForce : MonoBehaviour
 
     public readonly float G = 100;
 
-    [SerializeField] private GameObject planetParent;
+    public GameObject planetParent;
 
-    private List<PlanetBase> planet = new List<PlanetBase>();
+    public List<PlanetBase> planet = new List<PlanetBase>();
 
     private void Awake()
     {
