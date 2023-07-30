@@ -287,9 +287,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 9161097a001a2344ba9f32185281f094, type: 3}
   massOfPlanet: 0.00597
   diameter: 0.12756
   distanceFromSun: 149.6
+  rotationPeriod: 24
+  clockWise: 1
 --- !u!135 &48695495
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -323,7 +326,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -517,9 +520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 9c6c9e5030f5ccd45b5f0e0fb17f8e42, type: 3}
   massOfPlanet: 0.000642
   diameter: 0.06792
   distanceFromSun: 228
+  rotationPeriod: 24
+  clockWise: 1
 --- !u!135 &399590695
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -553,7 +559,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -747,9 +753,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 888b6a1f07bee544c8ed4c62530bd13e, type: 3}
   massOfPlanet: 0.102
   diameter: 0.49528
   distanceFromSun: 4515
+  rotationPeriod: 16
+  clockWise: 1
 --- !u!135 &425918808
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -783,7 +792,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -988,9 +997,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: e21bd3b3a5013e745a690e73523ea370, type: 3}
   massOfPlanet: 332.8
   diameter: 13.92
   distanceFromSun: 0
+  rotationPeriod: 5000
+  clockWise: 1
 --- !u!135 &909468265
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1024,7 +1036,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1427,9 +1439,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 5b00202789030534596208035805f279, type: 3}
   massOfPlanet: 0.000013
   diameter: 0.002376
   distanceFromSun: 5906.4
+  rotationPeriod: 153
+  clockWise: 0
 --- !u!135 &1017369786
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1463,7 +1478,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1657,9 +1672,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: c379ac69e9b470f4ea0d4d7a7d7d964b, type: 3}
   massOfPlanet: 0.00487
   diameter: 0.12104
   distanceFromSun: 108.2
+  rotationPeriod: 5832
+  clockWise: 0
 --- !u!135 &1122665076
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1693,7 +1711,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1887,9 +1905,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: df032027c0dfc454dba43bdd8d8872c6, type: 3}
   massOfPlanet: 0.000073
   diameter: 0.03475
   distanceFromSun: 149.984
+  rotationPeriod: 655
+  clockWise: 1
 --- !u!135 &1290158409
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1923,7 +1944,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2162,9 +2183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 66d37a9256dd6b7458b95a541199586c, type: 3}
   massOfPlanet: 1.898
   diameter: 1.42984
   distanceFromSun: 778.5
+  rotationPeriod: 9.9
+  clockWise: 1
 --- !u!135 &1735714603
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2198,7 +2222,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2392,9 +2416,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 11c7d774fe709d24e8ba316eebe6bba8, type: 3}
   massOfPlanet: 0.868
   diameter: 0.51118
   distanceFromSun: 2867
+  rotationPeriod: 17.2
+  clockWise: 0
 --- !u!135 &1886744283
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2428,7 +2455,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2507,9 +2534,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 1a0b3d5d41a19ed4380b5e4de0adc0df, type: 3}
   massOfPlanet: 0.00033
   diameter: 0.04879
   distanceFromSun: 57.9
+  rotationPeriod: 1407
+  clockWise: 1
 --- !u!135 &1963404580
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2543,7 +2573,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2852,9 +2882,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da3df5d4c20c254498ac525b9a19b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 042b23556d07c4e4896de240511dcd95, type: 3}
   massOfPlanet: 0.568
   diameter: 1.20536
   distanceFromSun: 1432
+  rotationPeriod: 10.7
+  clockWise: 1
 --- !u!135 &2012690186
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2888,7 +2921,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7cf95531bdb51f4b9d0c92f99a7f77a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

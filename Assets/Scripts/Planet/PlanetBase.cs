@@ -4,21 +4,45 @@ using UnityEngine;
 
 public class PlanetBase : MonoBehaviour
 {
+    public Texture texture;
+
     public float massOfPlanet;
     public float diameter;
     public float distanceFromSun;
+    public float rotationPeriod;
+    [SerializeField] private bool clockWise = true;
+
 
     private Rigidbody rb;
+
+    private Renderer m_Renderer;
+
+    private float rotationSpeed = 720;
+
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        m_Renderer = GetComponent<Renderer>();
 
         rb.mass = massOfPlanet;
 
         transform.localScale = Vector3.one * diameter;
 
         transform.position = new Vector3(0, 0, distanceFromSun);
+
+        m_Renderer.material.SetTexture("_MainTex", texture);
+
+        rotationPeriod /= 24;
+
+        rotationSpeed /= rotationPeriod;
+
+        if (!clockWise) rotationSpeed = -rotationSpeed;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(rotationSpeed * Time.deltaTime * Vector3.up);
     }
 
     public void CalculateTheForce(PlanetBase m_otherPlanet) // m kutle
